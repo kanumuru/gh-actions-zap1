@@ -53,7 +53,7 @@ jobs:
         run: |
           cd ./tests/
           python e2e_zap.py
-      - name: "Upload Report"
+      - name: "Upload  Report"
         uses: actions/upload-artifact@v1
         with:
           name: zap-scan-report
